@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="content">
+        <h1>Book library</h1>
+        <table>
+            <tr>
+                <td>Book title</td>
+                <td><input type="text" class="title-of-book"></td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td><input type="text" class="author"></td>
+            </tr>
+            <tr>
+                <td>Pages</td>
+                <td><input type="text" class="pages"></td>
+            </tr>
+        </table>
+        
+        <div class="button-content">
+            <button class="enter">New book</button>
+            <button class="display-book">Display all books</button>
+        </div>
+    </div>
+    <div class="all-books-content">
+        <h2>All books</h2>
+        <div class="info-book"></div>
+    </div>
+    <div class="show-name"></div>
+    <script src="app-book-library.js"></script>
+</body>
+</html>
